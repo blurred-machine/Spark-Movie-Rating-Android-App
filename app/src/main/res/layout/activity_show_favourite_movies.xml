@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowFavouriteMoviesActivity"
+    android:orientation="vertical">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/favListCoordinatorLatyout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/app_bar_favourite"
+        layout="@layout/toolbar_layout" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorOrange50"
+        android:layout_marginTop="60dp"
+        android:id="@+id/myListViewFavourite" />
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
